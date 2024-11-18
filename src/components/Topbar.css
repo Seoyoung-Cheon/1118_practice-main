@@ -83,6 +83,7 @@ ol {
 .section1 {
   width: 100%;
   padding-top: 30px;
+  transform: translateY(-10%);
   background-color: #ee5057;
   position: relative;
   color: white;
@@ -102,14 +103,17 @@ ol {
 
 .setion1-btn {
   position: relative;
-  color: #000;
+  color: white;
   z-index: 2;
   line-height: 40px;
   padding: 0;
+  background-color: #ee5057;
 }
 
 .setion1-btn:hover {
   border: none;
+  background-color: white;
+  color: #ee5057;
 }
 
 .setion1-btn:before,
@@ -128,8 +132,8 @@ ol {
   left: 0;
   border-bottom-color: transparent;
   border-right-color: transparent;
-  border-top-color: #000;
-  border-left-color: #000;
+  border-top-color: white;
+  border-left-color: white;
 }
 
 .setion1-btn:after {
@@ -137,8 +141,8 @@ ol {
   right: 0;
   border-top-color: transparent;
   border-left-color: transparent;
-  border-bottom-color: #000;
-  border-right-color: #000;
+  border-bottom-color: white;
+  border-right-color: white;
 }
 
 .setion1-btn:hover:before,
@@ -158,6 +162,6 @@ ol {
   border-left: 1200px solid transparent;
   border-right: 1200px solid transparent;
   align-items: center;
-  transform: translate(-11%, -5%);
+  transform: translate(-10.5%, -2%);
 
 }
