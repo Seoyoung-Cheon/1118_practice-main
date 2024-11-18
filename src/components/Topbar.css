@@ -8,12 +8,13 @@ ol {
   height: 119px;
   top: 0;
   left: 0;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  background-color: white;
+  background-color: #f8f8f8;
+  box-shadow: 3px 3px 3px rgb(221, 215, 215);
+  z-index: 10;
 }
 
 .logo {
